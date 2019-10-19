@@ -1,0 +1,930 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.navAll
+{
+position: relative;
+}
+.navMe
+{
+   width: 50% ;   
+    position: absolute;
+    left: 28%;
+    padding-top: 12px;
+    z-index: 10;
+}
+.logo-upper
+{
+    color: #00D646;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    z-index: 10;
+    animation-name: logo;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+@keyframes logo{
+    0%{transform: rotate(0deg)}
+    100%{transform: scale(1.2,1.2)}
+}
+.cup
+{
+    animation-name: cup;
+    animation-duration: 4s;
+    transition: all 1s;
+}
+@keyframes cup{
+    0%{transform: rotate(0deg)}
+    50%{transform: rotate(360deg)}
+    100%{transform: scale(1.2,1.2)}
+}
+.icona:hover
+{
+color: #00D646;
+}
+.navMe a
+{
+color: #fff;
+}
+.navMe li
+{
+    margin: auto;
+}
+.home img
+{
+    width: 100%;
+    
+}
+.home
+{
+    position: relative;
+    overflow: hidden;
+}
+.cover
+{
+     
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    
+}
+.caption
+{
+    background-color: rgba(0,0,0,.5);
+    text-align: left;
+    position: absolute;
+    top: 8%;
+    left: 14%;
+    height: 87%;
+    
+}
+.caption-caption
+{
+    background-color:rgba(255,255,255,.3);
+    font-size: 23px;
+    border-radius: 15px;
+    position: absolute;
+    left: 13%;
+    top: 55%;
+    padding: 8%;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+}
+.lap
+{
+    color: #00D646;
+    font-size: 40px;
+    
+}
+.logo
+{
+    color: #00D646;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.logo-caption
+{
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.home .fonty
+{
+    font-family: 'Monoton', fantasy;
+    color: #00D646;
+    font-size: 90px;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: relative;
+    animation-name: fOne;
+    animation-duration: 1s;
+}
+
+.fontty
+{
+    font-family: 'Monoton', fantasy;
+    color:#fff ;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 15%;
+    font-weight: 400;
+    position: relative;
+    animation-name: fTwo;
+   animation-duration: 3s;
+}
+.ms
+{
+ color: #00D646;
+ font-size: 65px;
+}
+.abostrof
+{
+ color: #00D646;   
+}
+.fonttty
+{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-align:center;
+    position: relative;
+    animation-name: fThree;
+    animation-duration: 5s;
+    
+}
+@keyframes fOne
+{
+    0%{left: 100% }
+    100%{left: 0% }
+}
+@keyframes fTwo
+{
+    0%{right: 100%}
+    50%{right: 5%}
+    80%{right: 10%}
+    100%{right: 0%}
+}
+@keyframes fThree
+{
+    0%{top: 100%}
+    50%{top: 100%}
+    100%{top: 0%}
+}
+.splash
+{   
+    cursor: pointer;
+    margin: auto;
+    height: 450px;
+    width: 60.5%;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+@keyframes slider
+{
+    0%{background-image: url(../image/Trello_logo_gradient.jpg) ; background-size: 100% 100%}
+    25%{background-image: url(../image/Trello_logo_gradient.jpg); background-size: 100% 100%}
+    50%{background-image: url(../image/meta-image.jpg); background-size: 100% 100%}
+    75%{background-image: url(../image/photoshop_cc_logo.jpg); background-size: 100% 100%}
+    100%{background-image: url(../image/github-logo-silhouette-in-a-square318-54633.jpg); background-size: 100% 100%}
+    
+}
+.pics
+{
+    margin-top: 10px;
+    cursor: pointer;
+    height: 150px;
+}
+/*
+.pic img
+{
+width: 100%;
+   height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+*/
+.pics img
+{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+}
+.myWork
+{
+    
+    background-color: whitesmoke;
+    width: 85%;
+}
+.myWork h1
+{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.menu-img
+{
+    transition: all 1s;
+    cursor: pointer;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.menu-caption
+{
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 1s;
+    font-family: 'Merienda', cursive;
+}
+.menu-content
+{
+    overflow: hidden;
+    position: relative;
+}
+.menu-content:hover .menu-caption
+{
+    top: 50%;
+    
+}
+.menu-content:hover .menu-img
+{
+    transform: scale(1.2,1.2);
+}
+.om
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: 'Fascinate Inline', cursive;
+    
+}
+.omp
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Fascinate Inline', cursive;
+}
+.lightBox
+{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+    z-index: 100;
+}
+.lightBox-img
+{
+
+height: 500px;
+background-color: black;
+margin-top: 90px;
+border-radius: 20px;
+background-size: 100% 100%;
+}
+.menu-layer
+{
+position: relative;
+}
+#close
+{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgrey;
+    transition: all 1s; 
+}
+.iclose:hover
+{
+    transform: scale(1.7,1.7);
+    
+}
+#next
+{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgray;
+    transition: all 1s;
+}
+.inext:hover
+{
+    transform: scale(1.7,1.7);
+    
+}
+#prev
+{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgray;
+    transition: all 1s;
+}
+.iprev:hover
+{
+    transform: scale(1.7,1.7);
+    
+}
+
+#nextin
+{
+    position: absolute;
+    top: 2%;
+    right: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgray;
+    transition: all 1s;
+}
+.innext:hover
+{
+    transform: scale(1.7,1.7);
+    
+}
+#previn
+{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgray;
+    transition: all 1s;
+}
+.inprev:hover
+{
+    transform: scale(1.7,1.7);
+    
+}
+.skills
+{
+    height: 130%;
+    position: relative;
+    background-image: url(../image/laptop-1478822_1920.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+.layer
+{
+     
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.skills-frame
+{
+    padding-top:5%;
+}
+.skill-html
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-css
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-js
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-bs
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-jq
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-angular
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.skill-wordpress
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 12px;
+}
+h3
+{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+.skills-caption
+{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Fascinate Inline', cursive;
+    color: #fff ;
+}
+.skills-caption h1
+{
+    font-size: 50px;
+}
+.skills-caption h4
+{
+    font-size: 30px;
+}
+.persent-html
+{
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    animation-name: phtml;
+    animation-duration: 5s;
+    color: #fff;
+    
+}
+@keyframes phtml
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 90%}
+}
+.persent-css
+{
+    position: absolute;
+    top: 25%;
+    left: 87%;
+    animation-name: pcss;
+    animation-duration: 5.3s;
+    color: #fff;
+    
+}
+@keyframes pcss
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 87%}
+}
+.persent-js
+{
+    position: absolute;
+    top: 25%;
+    left: 83%;
+    animation-name: pjs;
+    animation-duration: 5.7s;
+    color: #fff;
+    
+}
+@keyframes pjs
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 83%}
+}
+.persent-bs
+{
+    position: absolute;
+    top: 25%;
+    left: 88%;
+    animation-name: pbs;
+    animation-duration: 5.2s;
+    color: #fff;
+    
+}
+@keyframes pbs
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 88%}
+}
+.persent-jq
+{
+    position: absolute;
+    top: 25%;
+    left: 79%;
+    animation-name: pjq;
+    animation-duration: 6.1s;
+    color: #fff;
+}
+@keyframes pjq
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 79%}
+}
+.persent-angular
+{
+    position: absolute;
+    top: 25%;
+    left: 76%;
+    animation-name: pangular;
+    animation-duration: 6.4s;
+    color: #fff;
+}
+@keyframes pangular
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 76%}
+}
+.persent-wordpress
+{
+    position: absolute;
+    top: 25%;
+    left: 78%;
+    animation-name: pwordpress;
+    animation-duration: 6.2s;
+    color: #fff;
+}
+@keyframes pwordpress
+{
+    0%{left: 110%}
+    40%{left: 110%}
+    100%{left: 78%}
+}
+.skill-html:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 72%;
+    background-color: #00D646;
+    animation-name: html;
+    animation-duration: 4s;
+    
+}
+@keyframes html
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 72% ; opacity: 1}
+}
+.skill-css:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 69%;
+    background-color: #00D646;
+    animation-name: css;
+    animation-duration: 4.3s;
+    
+}
+@keyframes css
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 69% ;opacity: 1}
+}
+.skill-js:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 65%;
+    background-color: #00D646;
+    animation-name: js;
+    animation-duration: 4.7s;
+    
+}
+@keyframes js
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 65% ; opacity: 1}
+}
+.skill-bs:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 70%;
+    background-color: #00D646;
+    animation-name: bs;
+    animation-duration: 4.2s;
+    
+}
+@keyframes bs
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 70% ; opacity: 1}
+}
+.skill-jq:after
+{
+   content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 61%;
+    background-color: #00D646;
+    animation-name: jq;
+    animation-duration: 5.1s;
+    
+}
+@keyframes jq
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 61% ;opacity: 1}
+}
+.skill-angular:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 58%;
+    background-color: #00D646;
+    animation-name: angular;
+    animation-duration: 5.4s;
+
+}
+@keyframes angular
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 58% ; opacity: 1}
+}
+.skill-wordpress:after
+{
+    content: "";
+    padding-left: 60px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 10px;
+    width: 60%;
+    background-color: #00D646;
+    animation-name: wordpress;
+    animation-duration: 5.2s;
+    
+}
+@keyframes wordpress
+{
+    0%{width: 0% ; opacity: 0}
+    50%{width: 0% ; opacity: 0}
+    100%{width: 60% ; opacity: 1}
+}
+
+
+.name-phone
+{
+    width: 45%;
+    margin: 8.3px;
+}
+.mail
+{
+    margin: 10px;
+}
+.message
+{
+    margin: 10px;
+}
+.submit
+{
+    margin: 10px;
+    cursor: pointer;
+    background-color: #00D646;
+    border: none;
+    color: #fff;
+    transition: all 1s;
+}
+.contact-info
+{
+    padding-top: 25%;
+}
+.submit:hover
+{
+    background-color: #060126;
+}
+.contact-talks a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-talks h3
+{
+    font-size: 19px;
+}
+.contact-talks p
+{
+    color: #fff;
+}
+.contact-talks
+{
+    padding-top: 30%;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+.social
+{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    color: #fff;
+}
+.social a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.fb:hover
+{
+  color: #3b5998;  
+}
+.insta:hover
+{
+  color: #C13584;  
+}
+.tw:hover
+{
+  color: #00acee;  
+}
+.lnk:hover
+{
+    color: #2867B2;
+}
+.fb , .insta , .tw , .lnk
+{
+    transition: all 1s;
+}
+
+.contact-form
+{
+    height: 550px;
+    background-color: #2A3340;
+    overflow: auto;
+    position: relative;
+    border-radius: 40px;
+}
+.experience
+{
+    background-image: url(../image/ama-dablam-2064522_1920.jpg);
+    height: 250%;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+.sharp
+{
+  background-color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;  
+}
+.p1 , .p2 , .p3
+{
+    height: 200px;
+}
+.p1
+{
+    background-color: dodgerblue;
+}
+.p2
+{
+    background-color: darkred;
+    position: relative;
+    
+}
+.p3
+{
+    background-color: black;
+}
+.ex1
+{
+    width: 20px;
+    height: 20px;
+    background-color: darkturquoise;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+.ex1:after
+{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 20px;
+    height: 50px;
+}
+.ex2
+{
+    width: 20px;
+    height: 20px;
+    background-color:crimson;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+}
+.ex2:after
+{
+    content: "";
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 20px;
+    height: 50px;
+}
+.ex3
+{
+    width: 20px;
+    height: 20px;
+    background-color: coral;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 65%;
+}
+.ex3:after
+{
+    content: "";
+    background-color: #09c;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 20px;
+    height: 50px;
+}
+.ex4
+{
+   width: 20px;
+   height: 20px;
+   background-color: blueviolet;
+   border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 95%;
+}
